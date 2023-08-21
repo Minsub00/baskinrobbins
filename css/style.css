@@ -995,6 +995,9 @@ footer{
     .header{
         height: 95px;
     }
+    .header-right li {
+        padding-left: 12px;
+    }
     .logo {
         width: 60px;
         height: 60px;
@@ -1014,9 +1017,13 @@ footer{
     .head-txt{
         font-size: 20px;
     }
-    .sub-txt {
-        font-size: 16px;
-        padding: 16px;
+    .sec-1 .sub-txt {
+        font-size: 12px;
+        padding: 20px 0; 
+    }
+    .store-box {
+        width: calc(50% - 60px);
+        padding: 8px;
     }
     .product{
         width: calc(33.333% - 8px);
@@ -1026,6 +1033,12 @@ footer{
     }
     .product-wrap{
         margin-top: 28px;
+    }
+    .product-box{
+        padding: 0 16px;
+    }
+    .btn-wrap{
+        padding: 0 16px;
     }
     .corn{
         margin: 20px auto;
