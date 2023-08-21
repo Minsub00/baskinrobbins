@@ -1021,6 +1021,10 @@ footer{
         font-size: 12px;
         padding: 20px 0; 
     }
+    .store-box {
+        width: calc(50% - 60px);
+        padding: 8px;
+    }
     .product{
         width: calc(33.333% - 8px);
         margin-bottom: 8px;
